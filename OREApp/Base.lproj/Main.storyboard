@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ORE 2 Small" translatesAutoresizingMaskIntoConstraints="NO" id="pXh-zg-kfy">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="pXh-zg-kfy">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -215,7 +215,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ORE 2 Small" width="320" height="213"/>
+        <image name="Image" width="393" height="668"/>
         <image name="play.circle.fill" catalog="system" width="128" height="123"/>
         <image name="triangle.righthalf.fill" catalog="system" width="128" height="109"/>
         <namedColor name="AccentColor">
