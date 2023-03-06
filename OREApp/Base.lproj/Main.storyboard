@@ -3,7 +3,6 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
@@ -28,38 +27,49 @@
                                     <constraint firstAttribute="width" constant="256" id="Zdv-cy-YZI"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="164-7r-pcJ">
-                                <rect key="frame" x="159" y="386" width="75" height="81"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="164-7r-pcJ">
+                                <rect key="frame" x="68.666666666666686" y="386" width="256" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="9aT-vh-OXO"/>
+                                    <constraint firstAttribute="width" constant="256" id="z2E-H2-gCw"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r8d-3e-gLq">
-                                <rect key="frame" x="80" y="103.33333333333331" width="57" height="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ORE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afC-gb-8rE">
+                                <rect key="frame" x="39" y="78" width="315" height="150"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="120"/>
+                                <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CV-vY-jzZ">
+                                <rect key="frame" x="84" y="278" width="48" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <imageReference key="image" image="pyramid" catalog="system" symbolScale="medium"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afC-gb-8rE">
-                                <rect key="frame" x="48" y="73" width="297" height="148"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="128"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9D-3H-zMF">
+                                <rect key="frame" x="84" y="310" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VLI-2C-PLc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dXg-Pa-jqM" firstAttribute="centerY" secondItem="164-7r-pcJ" secondAttribute="centerY" id="9f8-q5-GxX"/>
-                            <constraint firstItem="dXg-Pa-jqM" firstAttribute="top" secondItem="QbF-wp-sOL" secondAttribute="topMargin" constant="-59" id="G5a-zt-Nc3"/>
+                            <constraint firstItem="dXg-Pa-jqM" firstAttribute="centerY" secondItem="QbF-wp-sOL" secondAttribute="centerY" id="IQK-Gl-3W9"/>
+                            <constraint firstItem="dXg-Pa-jqM" firstAttribute="centerX" secondItem="afC-gb-8rE" secondAttribute="centerX" id="KGJ-33-b3Y"/>
+                            <constraint firstItem="dXg-Pa-jqM" firstAttribute="top" secondItem="QbF-wp-sOL" secondAttribute="topMargin" constant="-59" id="Oc1-Lo-SQq"/>
                             <constraint firstItem="bXz-Kf-amO" firstAttribute="centerX" secondItem="164-7r-pcJ" secondAttribute="centerX" id="TCt-C0-UoI"/>
                             <constraint firstItem="bXz-Kf-amO" firstAttribute="top" secondItem="QbF-wp-sOL" secondAttribute="top" constant="265" id="YyX-pc-Q4w"/>
-                            <constraint firstItem="bXz-Kf-amO" firstAttribute="centerX" secondItem="dXg-Pa-jqM" secondAttribute="centerX" id="hfS-iJ-drz"/>
                             <constraint firstItem="bXz-Kf-amO" firstAttribute="centerX" secondItem="afC-gb-8rE" secondAttribute="centerX" id="jgK-8n-1KA"/>
                             <constraint firstItem="bXz-Kf-amO" firstAttribute="centerX" secondItem="QbF-wp-sOL" secondAttribute="centerX" id="k4s-3U-OAm"/>
-                            <constraint firstItem="dXg-Pa-jqM" firstAttribute="centerY" secondItem="QbF-wp-sOL" secondAttribute="centerY" id="voH-HH-sNA"/>
-                            <constraint firstItem="bXz-Kf-amO" firstAttribute="top" secondItem="afC-gb-8rE" secondAttribute="bottom" constant="44" id="wBu-xw-l6F"/>
+                            <constraint firstItem="bXz-Kf-amO" firstAttribute="top" secondItem="afC-gb-8rE" secondAttribute="bottom" constant="39" id="wBu-xw-l6F"/>
                             <constraint firstItem="164-7r-pcJ" firstAttribute="top" secondItem="bXz-Kf-amO" secondAttribute="bottom" constant="45" id="wGS-fe-cix"/>
                         </constraints>
                     </view>
@@ -67,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1061.8320610687022" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1057.2519083969464" y="3.5211267605633805"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="U2S-Xf-F6u">
@@ -901,7 +911,6 @@
     <resources>
         <image name="Image" width="393" height="668"/>
         <image name="moonphase.new.moon" catalog="system" width="128" height="123"/>
-        <image name="pyramid" catalog="system" width="128" height="125"/>
         <image name="slider.horizontal.3" catalog="system" width="128" height="99"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -926,6 +935,9 @@
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
