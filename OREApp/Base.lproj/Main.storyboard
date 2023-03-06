@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18" y="4"/>
+            <point key="canvasLocation" x="2242" y="-13"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="U2S-Xf-F6u">
@@ -516,7 +516,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iH7-su-07x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1817.5572519083969" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="2905" y="-13"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="GmZ-i5-gFq">
@@ -534,7 +534,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fGc-jk-24h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1011" y="4"/>
+            <point key="canvasLocation" x="1584" y="-13"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="lqF-Fa-SVo">
@@ -891,7 +891,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GDs-pC-MXe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3495.419847328244" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="3573" y="-13"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BUa-Po-UTH">
@@ -1021,6 +1021,14 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.1058823466" green="0.1058823466" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p0D-Gk-X6K">
+                                <rect key="frame" x="16" y="569" width="361" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MkW-yS-YST">
+                                <rect key="frame" x="16" y="684" width="361" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QfY-ft-gPg"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
