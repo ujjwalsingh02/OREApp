@@ -287,7 +287,7 @@
                             <constraint firstItem="duk-Ca-k3V" firstAttribute="top" secondItem="CXN-tH-Qrn" secondAttribute="top" constant="20" id="ygA-pZ-M8A"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="GZe-ZK-s9v"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="pyramid" catalog="system" id="GZe-ZK-s9v"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
